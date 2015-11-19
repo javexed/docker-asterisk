@@ -1,0 +1,19 @@
+[general]
+;register => user:pass@provider.full.dns
+
+[sip-provider]
+type=peer
+secret=
+username=
+host=
+dtmfmode=rfc2833
+defaultuser=
+canreinvite=no
+disallow=all
+allow=ulaw
+allow=alaw
+allow=gsm
+insecure=port,invite
+fromdomain=
+context=adhearsion
+quality=yes

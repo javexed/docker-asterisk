@@ -3,3 +3,6 @@ private.yml
 bower_components/
 __presentation/
 _presentation/
+iax.conf
+sip.conf
+extensions.conf

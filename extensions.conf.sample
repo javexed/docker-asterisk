@@ -8,3 +8,10 @@ exten => 333,	1,Noop(Test AGI!)
 same =>			n,AGI(agi://127.0.0.1/foobar)
 same =>			n,Playback(hello-world)
 same =>			n,Hangup()
+
+[adhearsion]
+exten => _X.,1,AGI(agi:async)
+
+[adhearsion-redirect]
+exten => 1,1,AGI(agi:async)
+

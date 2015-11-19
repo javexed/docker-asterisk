@@ -5,12 +5,23 @@ jitterbuffer=no
 forcejitterbuffer=no
 autokill=yes
 
+;[iax-outbound]
+;type=peer
+;username=
+;secret=
+;notransfer=yes
+;peercontext=
+;host=
+;allow=gsm,ulaw
+;qualify=yes
+;trunk=yes
+
 ;[theuser]
 ;type=friend
 ;auth=md5
-;context=insidecaller
+;context=adhearsion
 ;trunk=no
-;secret=makeagoodsecret
+;secret=
 ;defaultuser=theuser
 ;username=theuser
 ;host=dynamic
@@ -18,3 +29,5 @@ autokill=yes
 ;requirecalltoken=no
 ;disallow=all
 ;allow=gsm
+
+
